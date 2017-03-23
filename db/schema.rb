@@ -10,12 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170323112058) do
+ActiveRecord::Schema.define(version: 20170323112213) do
 
   create_table "users", force: :cascade do |t|
     t.string   "phone"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.string   "sms_login_token"
+    t.datetime "sms_login_token_created_at"
+    t.index ["sms_login_token"], name: "index_users_on_sms_login_token"
   end
 
 end

@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/harfangk/sms_login.git
-  revision: 81455b7b4a707912a3dd0ab341ed13930da57f92
+  revision: 985e99c9623e0b52e02f8358f5ba78608baa5137
   specs:
-    sms_login (0.1.1)
+    sms_login (0.1.2)
 
 GEM
   remote: https://rubygems.org/
