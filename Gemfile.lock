@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/harfangk/sms_login.git
+  revision: 81455b7b4a707912a3dd0ab341ed13930da57f92
+  specs:
+    sms_login (0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -118,6 +124,9 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    simple_form (3.4.0)
+      actionpack (> 4, < 5.1)
+      activemodel (> 4, < 5.1)
     spring (2.0.1)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -162,6 +171,8 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (~> 5.0.2)
   sass-rails (~> 5.0)
+  simple_form
+  sms_login!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
@@ -171,4 +182,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
